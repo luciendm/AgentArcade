@@ -7,7 +7,7 @@ import { propagateQueryPlugin } from './plugins/vite-plugin-propagate-query';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: './',
+  base: '/AgentArcade/',
   plugins: [react(), tailwindcss(), devReload()],
   resolve: {
     alias: {
