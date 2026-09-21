@@ -8,7 +8,7 @@ import { propagateQueryPlugin } from './plugins/vite-plugin-propagate-query';
 // https://vite.dev/config/
 export default defineConfig({
   base: './',
-  plugins: [react(), tailwindcss(), devReload(), propagateQueryPlugin()],
+  plugins: [react(), tailwindcss(), devReload()],
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
